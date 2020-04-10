@@ -1,0 +1,4 @@
+jun.rpc.registry.address=http://127.0.0.1:2379
+
+jun.rpc.server.enable=true
+jun.annotation.package=com.leibangzhu.iris.springboot
