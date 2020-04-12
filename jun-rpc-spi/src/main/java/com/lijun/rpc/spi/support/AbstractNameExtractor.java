@@ -9,8 +9,7 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 
 /**
- * @author Jerry Lee(oldratlee AT gmail DOT com)
- * @since 0.3.0
+ * @author LiJun
  */
 public abstract class AbstractNameExtractor implements NameExtractor {
     protected Method method;
@@ -23,6 +22,7 @@ public abstract class AbstractNameExtractor implements NameExtractor {
 
     protected String[] adaptiveKeys;
 
+    @Override
     public void setMethod(Method method) {
         this.method = method;
         this.extension = method.getDeclaringClass();
@@ -54,5 +54,6 @@ public abstract class AbstractNameExtractor implements NameExtractor {
 
     protected abstract void doInit();
 
+    @Override
     public abstract String extract(Object argument);
 }

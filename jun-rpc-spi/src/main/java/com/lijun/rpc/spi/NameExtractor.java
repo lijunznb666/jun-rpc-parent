@@ -6,8 +6,8 @@ import java.lang.reflect.Method;
  * 从方法扩展点的方法参数中提取到扩展名称信息，在{@link Adaptive}中指定。
  * 会为每个扩展点的每个方法会对应一个{@link NameExtractor}实例。
  *
+ * @author LiJun
  * @see Adaptive
- * @since 0.3.0
  */
 public interface NameExtractor {
     /**

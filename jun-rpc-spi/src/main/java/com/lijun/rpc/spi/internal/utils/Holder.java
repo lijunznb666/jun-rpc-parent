@@ -1,10 +1,10 @@
 package com.lijun.rpc.spi.internal.utils;
 
 /**
- * Holds a value of type <code>T</code>.
+ * Class Name Holder ...
  *
- * @author Jerry Lee(oldratlee AT gmail DOT com)
- * @since 0.1.0
+ * @author LiJun
+ * Created on 2020/4/12 17:55
  */
 public final class Holder<T> {
 

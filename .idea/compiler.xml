@@ -2,18 +2,22 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jun-rpc-spi" />
         <module name="jun-rpc-springboot" />
-        <module name="rpc-server" />
+        <module name="jun-rpc-remote" />
+        <module name="jun-rpc-client" />
+        <module name="rpc-example-client" />
         <module name="jun-rpc-protocol" />
         <module name="jun-rpc-spring" />
         <module name="jun-rpc-core" />
-        <module name="rpc-client" />
-        <module name="jun-rpc-spi" />
-        <module name="jun-rpc-remote" />
+        <module name="rpc-example-server" />
+        <module name="jun-rpc-server" />
+        <module name="jun-rpc-registry" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,19 +25,20 @@
       <module name="jun-rpc-core" target="1.8" />
       <module name="jun-rpc-parent" target="1.8" />
       <module name="jun-rpc-protocol" target="1.8" />
+      <module name="jun-rpc-registry" target="1.8" />
       <module name="jun-rpc-remote" target="1.8" />
       <module name="jun-rpc-server" target="1.8" />
       <module name="jun-rpc-spi" target="1.8" />
       <module name="jun-rpc-spring" target="1.8" />
       <module name="jun-rpc-springboot" target="1.8" />
-      <module name="rpc-client" target="1.8" />
-      <module name="rpc-server" target="1.8" />
+      <module name="rpc-example-client" target="1.8" />
+      <module name="rpc-example-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="rpc-client" options="-parameters" />
-      <module name="rpc-server" options="-parameters" />
+      <module name="rpc-example-client" options="-parameters" />
+      <module name="rpc-example-server" options="-parameters" />
     </option>
   </component>
 </project>

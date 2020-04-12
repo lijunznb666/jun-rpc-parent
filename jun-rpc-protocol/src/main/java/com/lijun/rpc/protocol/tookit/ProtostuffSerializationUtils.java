@@ -18,7 +18,6 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class ProtostuffSerializationUtils {
 
-
     private static Map<Class<?>, Schema<?>> cacheSchemas = new ConcurrentHashMap<>();
     private static Objenesis objenesis = new ObjenesisStd(true);
 

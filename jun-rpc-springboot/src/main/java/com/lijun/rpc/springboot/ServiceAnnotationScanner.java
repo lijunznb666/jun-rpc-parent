@@ -12,7 +12,7 @@ import java.util.Set;
  * Class Name ServiceAnnotationScanner ...
  *
  * @author LiJun
- * Created on 2020/4/7 19:47
+ * Created on 2020/4/12 17:59
  */
 public class ServiceAnnotationScanner extends ClassPathBeanDefinitionScanner {
     public ServiceAnnotationScanner(BeanDefinitionRegistry registry) {

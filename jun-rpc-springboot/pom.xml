@@ -17,10 +17,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.lijun.rpc</groupId>
-            <artifactId>jun-rpc-remote</artifactId>
-        </dependency>
 
         <dependency>
             <groupId>com.lijun.rpc</groupId>

@@ -21,7 +21,7 @@ import java.util.Map;
  * </code></pre>
  * 表示从方法参数<code>person</code>的<code>parameters</code>属性（是个Map）上提取。
  *
- * @author Jerry Lee(oldratlee AT gmail DOT com)
+ * @author Lijun
  * @see FromAttribute
  * @since 0.3.0
  */

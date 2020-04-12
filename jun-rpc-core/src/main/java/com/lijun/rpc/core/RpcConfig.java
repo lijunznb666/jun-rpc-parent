@@ -1,6 +1,5 @@
 package com.lijun.rpc.core;
 
-import com.lijun.rpc.core.tookit.ExceptionUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +10,7 @@ import java.util.Properties;
 
 /**
  * Class Name RpcConfig ...
+ * 配置类
  *
  * @author LiJun
  * Created on 2020/4/6 11:01
@@ -42,7 +42,6 @@ public class RpcConfig {
                 initialized = true;
             } catch (Exception e) {
                 log.error("RpcConfig get error :", e);
-                throw ExceptionUtils.mpe(e);
             }
         }
         return configMap.get(key);

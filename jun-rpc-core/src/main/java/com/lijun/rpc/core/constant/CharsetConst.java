@@ -12,5 +12,8 @@ import java.nio.charset.StandardCharsets;
  */
 public class CharsetConst {
 
+    /**
+     * UTF-8
+     */
     public static Charset UTF_8 = StandardCharsets.UTF_8;
 }

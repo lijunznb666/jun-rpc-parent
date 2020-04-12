@@ -2,6 +2,7 @@ package com.lijun.rpc.core.exceptions;
 
 /**
  * Class Name RpcException ...
+ * 异常类
  *
  * @author LiJun
  * Created on 2020/4/6 11:09

@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/jun-rpc-client/jun-rpc-client.iml" filepath="$PROJECT_DIR$/jun-rpc-client/jun-rpc-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/jun-rpc-core/jun-rpc-core.iml" filepath="$PROJECT_DIR$/jun-rpc-core/jun-rpc-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/jun-rpc-parent.iml" filepath="$PROJECT_DIR$/jun-rpc-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/jun-rpc-protocol/jun-rpc-protocol.iml" filepath="$PROJECT_DIR$/jun-rpc-protocol/jun-rpc-protocol.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jun-rpc-remote/jun-rpc-remote.iml" filepath="$PROJECT_DIR$/jun-rpc-remote/jun-rpc-remote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jun-rpc-registry/jun-rpc-registry.iml" filepath="$PROJECT_DIR$/jun-rpc-registry/jun-rpc-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jun-rpc-remote-2/jun-rpc-remote.iml" filepath="$PROJECT_DIR$/jun-rpc-remote-2/jun-rpc-remote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jun-rpc-server/jun-rpc-server.iml" filepath="$PROJECT_DIR$/jun-rpc-server/jun-rpc-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/jun-rpc-spi/jun-rpc-spi.iml" filepath="$PROJECT_DIR$/jun-rpc-spi/jun-rpc-spi.iml" />
       <module fileurl="file://$PROJECT_DIR$/jun-rpc-spring/jun-rpc-spring.iml" filepath="$PROJECT_DIR$/jun-rpc-spring/jun-rpc-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/jun-rpc-springboot/jun-rpc-springboot.iml" filepath="$PROJECT_DIR$/jun-rpc-springboot/jun-rpc-springboot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/example/rpc-client/rpc-client.iml" filepath="$PROJECT_DIR$/example/rpc-client/rpc-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/example/rpc-server/rpc-server.iml" filepath="$PROJECT_DIR$/example/rpc-server/rpc-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/rpc-example-client/rpc-example-client.iml" filepath="$PROJECT_DIR$/example/rpc-example-client/rpc-example-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/rpc-example-server/rpc-example-server.iml" filepath="$PROJECT_DIR$/example/rpc-example-server/rpc-example-server.iml" />
     </modules>
   </component>
 </project>

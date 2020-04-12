@@ -4,10 +4,10 @@ import java.io.PrintWriter;
 import java.io.StringWriter;
 
 /**
- * StringUtils
+ * Class Name StringUtils ...
  *
- * @author Jerry Lee(oldratlee AT gmail DOT com)
- * @since 0.1.0
+ * @author LiJun
+ * Created on 2020/4/12 17:55
  */
 public final class StringUtils {
     /**
@@ -27,7 +27,9 @@ public final class StringUtils {
      */
     public static String toString(String head, Throwable throwable) {
         StringWriter w = new StringWriter(1024);
-        if (head != null) w.write(head + "\n");
+        if (head != null) {
+            w.write(head + "\n");
+        }
         PrintWriter p = new PrintWriter(w);
         try {
             throwable.printStackTrace(p);

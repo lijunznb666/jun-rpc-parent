@@ -11,7 +11,7 @@ import org.springframework.context.ApplicationContextAware;
  * Class Name ServiceAnnotationBeanFactoryPostProcessor ...
  *
  * @author LiJun
- * Created on 2020/4/7 19:47
+ * Created on 2020/4/12 17:59
  */
 public class ServiceAnnotationBeanFactoryPostProcessor implements BeanFactoryPostProcessor, ApplicationContextAware {
 

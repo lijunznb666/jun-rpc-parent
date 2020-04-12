@@ -26,11 +26,10 @@ import java.util.regex.Pattern;
  * <li>Wrapper实例每次获得扩展实例重新创建，并Wrap到扩展实例上。
  * </ul>
  *
- * @author Jerry Lee(oldratlee AT gmail DOT com)
+ * @author Lijun
  * @see Extension
  * @see Adaptive
  * @see <a href="http://java.sun.com/j2se/1.5.0/docs/guide/jar/jar.html#Service%20Provider">Service implementation of JDK5</a>
- * @since 0.1.0
  */
 public class ExtensionLoader<T> {
     private static final Logger logger = LoggerFactory.getLogger(ExtensionLoader.class);

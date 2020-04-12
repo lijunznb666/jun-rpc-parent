@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 /**
  * 和{@link MapSourceExtractor}配合使用，添加此注解，
  *
- * @author Jerry Lee(oldratlee AT gmail DOT com)
+ * @author LiJun
  * @see MapSourceExtractor
  */
 @Documented
@@ -19,7 +19,7 @@ public @interface FromAttribute {
     /**
      * 指定属性名，表示从所注解方法参数的这个属性上提取扩展实现名。
      *
-     * @see com.leibangzhu.coco.NameExtractor
+     * @see com.lijun.rpc.spi.NameExtractor
      * @see MapSourceExtractor
      */
     String value();

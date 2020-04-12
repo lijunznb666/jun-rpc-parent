@@ -10,10 +10,12 @@
     <modules>
         <module>jun-rpc-core</module>
         <module>jun-rpc-protocol</module>
-       <module>jun-rpc-remote</module>
         <module>jun-rpc-spi</module>
         <module>jun-rpc-spring</module>
         <module>jun-rpc-springboot</module>
+        <module>jun-rpc-registry</module>
+        <module>jun-rpc-client</module>
+        <module>jun-rpc-server</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -55,9 +57,20 @@
                 <artifactId>jun-rpc-protocol</artifactId>
                 <version>${project.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>com.lijun.rpc</groupId>
-                <artifactId>jun-rpc-remote</artifactId>
+                <artifactId>jun-rpc-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.lijun.rpc</groupId>
+                <artifactId>jun-rpc-server</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.lijun.rpc</groupId>
+                <artifactId>jun-rpc-registry</artifactId>
                 <version>${project.version}</version>
             </dependency>
 

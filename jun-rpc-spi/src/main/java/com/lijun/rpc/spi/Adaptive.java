@@ -8,11 +8,10 @@ import java.lang.annotation.*;
 /**
  * 注解到扩展点方法的参数，表示这个参数用于提供信息，让自适应实例（Adaptive Instance）找到运行调用时要调用的扩展名称。
  *
- * @author Jerry Lee(oldratlee AT gmail DOT com)
+ * @author Lijun
  * @see ExtensionLoader
  * @see Extension
  * @see NameExtractor
- * @since 0.1.0
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)

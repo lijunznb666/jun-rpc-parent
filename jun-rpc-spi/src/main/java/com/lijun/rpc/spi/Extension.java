@@ -11,9 +11,8 @@ import java.lang.annotation.Target;
  * <p/>
  * 没有此注释的接口{@link ExtensionLoader}会拒绝接管。
  *
- * @author Jerry Lee(oldratlee AT gmail DOT com)
+ * @author Lijun
  * @see ExtensionLoader
- * @since 0.1.0
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)

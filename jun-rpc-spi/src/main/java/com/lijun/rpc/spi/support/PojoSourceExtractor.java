@@ -1,6 +1,7 @@
 package com.lijun.rpc.spi.support;
 
 
+import com.lijun.rpc.spi.Adaptive;
 import com.lijun.rpc.spi.internal.utils.StringUtils;
 
 import java.lang.reflect.InvocationTargetException;
@@ -14,13 +15,12 @@ import java.util.List;
  * 缺省AdaptiveInstance调用时，扩展名称提取方法。
  * <p/>
  * <ol>
- * <li> 有{@link com.leibangzhu.coco.Adaptive}注解的参数是String类型，则参数值直接作为扩展名称。
- * <li> 有{@link com.leibangzhu.coco.Adaptive}注解的参数是Map类型，则提取Map的Value作为扩展名称。
+ * <li> 有{@link Adaptive}注解的参数是String类型，则参数值直接作为扩展名称。
+ * <li> 有{@link Adaptive}注解的参数是Map类型，则提取Map的Value作为扩展名称。
  * <li>
  * </ol>
  *
- * @author Jerry Lee(oldratlee AT gmail DOT com)
- * @since 0.3.0
+ * @author LiJun
  */
 public class PojoSourceExtractor extends AbstractNameExtractor {
     private List<Method> pojoGetters;
@@ -51,6 +51,7 @@ public class PojoSourceExtractor extends AbstractNameExtractor {
         }
     }
 
+    @Override
     public String extract(Object argument) {
         if (argument == null) {
             throw new IllegalArgumentException("adaptive " + parameterType.getName() +

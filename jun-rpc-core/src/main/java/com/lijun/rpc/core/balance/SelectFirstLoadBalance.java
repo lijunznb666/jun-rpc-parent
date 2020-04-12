@@ -4,6 +4,7 @@ import java.util.Map;
 
 /**
  * Class Name SelectFirstLoadBalance ...
+ * 默认选第一个
  *
  * @author LiJun
  * Created on 2020/4/6 11:00

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/example/rpc-client/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/example/rpc-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/example/rpc-example-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/example/rpc-example-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jun-rpc-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jun-rpc-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jun-rpc-core/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jun-rpc-protocol/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jun-rpc-protocol/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jun-rpc-remote/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jun-rpc-registry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jun-rpc-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jun-rpc-spi/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jun-rpc-spring/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jun-rpc-springboot/src/main/java" charset="UTF-8" />

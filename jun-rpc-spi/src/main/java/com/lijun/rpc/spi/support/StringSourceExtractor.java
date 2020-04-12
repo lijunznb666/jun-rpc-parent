@@ -1,8 +1,10 @@
 package com.lijun.rpc.spi.support;
 
 /**
- * @author Jerry Lee(oldratlee AT gmail DOT com)
- * @since 0.3.0
+ * Class Name StringSourceExtractor ...
+ *
+ * @author LiJun
+ * Created on 2020/4/12 17:57
  */
 public class StringSourceExtractor extends AbstractNameExtractor {
     @Override
