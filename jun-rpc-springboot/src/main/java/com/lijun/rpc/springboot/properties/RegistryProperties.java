@@ -12,7 +12,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix = "jun.rpc.registry")
 public class RegistryProperties {
 
-    private String address = "http://127.0.0.1:2379";
+    private String address = "127.0.0.1:2181";
 
     public String getAddress() {
         return address;

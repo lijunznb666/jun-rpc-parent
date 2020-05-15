@@ -9,7 +9,6 @@ import org.apache.zookeeper.data.Stat;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.imageio.spi.ServiceRegistry;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -25,7 +24,7 @@ import java.util.concurrent.CountDownLatch;
 public class ZookeeperRegistry implements IRegistry {
 
 
-    private static final Logger log = LoggerFactory.getLogger(ServiceRegistry.class);
+    private static final Logger log = LoggerFactory.getLogger(ZookeeperRegistry.class);
 
     private CountDownLatch latch = new CountDownLatch(1);
 
@@ -78,7 +77,6 @@ public class ZookeeperRegistry implements IRegistry {
             for (String node : nodeList) {
                 // byte[] bytes = zookeeper.getData(Constant.ZK_REGISTRY_PATH + "/" + node, false, null);
                 endpoints.add(new Endpoint(node));
-
             }
             log.info("service discover triggered updating connected server node,node data:{}", endpoints);
             endpointsByService.put(serviceName, endpoints);
